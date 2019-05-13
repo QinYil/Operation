@@ -5,6 +5,7 @@ import java.util.*;
 public class Operation {
 
     public int leastOpsExpressTarget(int x, int target) {
+        System.out.println();
         OrderOperationUtil orderOperationUtil = new OrderOperationUtil(x);
         int i =0;
         while (true){
